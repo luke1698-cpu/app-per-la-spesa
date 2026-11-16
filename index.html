@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#faf8ff">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>App per la Spesa</title>
+<link rel="manifest" href="app.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+<script defer src="model.js"></script>
+<script defer src="storage.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<main class="wrap" id="app"><p class="muted">Apertura dell’archivio…</p></main>
+<nav aria-label="Navigazione principale"><div class="wrap tabs" id="tabs"></div></nav>
+<p id="status" role="status" aria-live="polite"></p>
+<dialog id="modal" aria-labelledby="modal-title"><div class="modal-head"><h2 id="modal-title"></h2><button class="quiet" data-action="close" aria-label="Chiudi">✕</button></div><div id="modal-content"></div></dialog>
+</body></html>
